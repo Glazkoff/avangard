@@ -9,7 +9,11 @@ const PORT = 3000;
 // База данных
 const db = require("./models/index");
 
-app.get("/", (req, res) => {
+const user = require("./routes/user.js");
+
+app.use("/api/users", user);
+
+app.get("/api", (req, res) => {
   res.send("Привет, Авангард!");
 });
 

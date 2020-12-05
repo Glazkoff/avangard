@@ -4,7 +4,7 @@ const chalk = require("chalk");
 const history = require("connect-history-api-fallback");
 
 const app = express();
-const PORT = 80;
+const PORT = 3000;
 
 // База данных
 const db = require("./models/index");

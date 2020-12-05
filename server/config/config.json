@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "zitrnikgm2",
+    "password": "avanGard2020",
+    "database": "zitrnikgm2",
+    "host": "pg2.sweb.ru",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "zitrnikgm2",
+    "password": "avanGard2020",
+    "database": "zitrnikgm2",
+    "host": "pg2.sweb.ru",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "zitrnikgm2",
+    "password": "avanGard2020",
+    "database": "zitrnikgm2",
+    "host": "pg2.sweb.ru",
+    "dialect": "postgres"
+  }
+}
